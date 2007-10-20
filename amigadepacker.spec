@@ -1,6 +1,6 @@
 %define name amigadepacker
-%define version 0.02
-%define release %mkrel 2
+%define version 0.03
+%define release %mkrel 1
 
 Summary: Uncompressor for various AmigaOS formats
 Name: %{name}

@@ -10,6 +10,7 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: File tools
 Url: http://zakalwe.fi/~shd/foss/amigadepacker/
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Amigadepacker uncompresses various compression formats used on

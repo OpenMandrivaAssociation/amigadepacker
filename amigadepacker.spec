@@ -1,6 +1,6 @@
 %define name amigadepacker
 %define version 0.04
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Uncompressor for various AmigaOS formats
 Name: %{name}
@@ -22,7 +22,7 @@ MMCMP. It can also decrypt PowerPacker encrypted data files.
 chmod 644 README ChangeLog COPYING*
 
 %build
-%configure
+./configure
 %make CFLAGS="%optflags"
 %check
 make check

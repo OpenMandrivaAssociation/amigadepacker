@@ -42,3 +42,38 @@ rm -rf $RPM_BUILD_ROOT
 %doc README ChangeLog COPYING*
 %_bindir/%name
 %_mandir/man1/%name.1*
+
+
+%changelog
+* Sun Aug 28 2011 Götz Waschk <waschk@mandriva.org> 0.04-3mdv2012.0
++ Revision: 697266
+- rebuild
+
+* Wed Aug 26 2009 Götz Waschk <waschk@mandriva.org> 0.04-2mdv2011.0
++ Revision: 421402
+- fix build
+
+* Mon Aug 25 2008 Götz Waschk <waschk@mandriva.org> 0.04-1mdv2009.0
++ Revision: 275670
+- new version
+- update license
+
+* Thu Jun 19 2008 Thierry Vignaud <tv@mandriva.org> 0.03-2mdv2009.0
++ Revision: 226152
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+  + Götz Waschk <waschk@mandriva.org>
+    - fix URL
+
+* Sat Oct 20 2007 Götz Waschk <waschk@mandriva.org> 0.03-1mdv2008.1
++ Revision: 100597
+- new version
+
+* Wed Jul 25 2007 Götz Waschk <waschk@mandriva.org> 0.02-2mdv2008.0
++ Revision: 55216
+- Import amigadepacker
+

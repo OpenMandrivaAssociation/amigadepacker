@@ -9,7 +9,7 @@ Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
 License: GPLv2+
 Group: File tools
-Url: http://zakalwe.fi/~shd/foss/amigadepacker/
+Url: https://zakalwe.fi/~shd/foss/amigadepacker/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description

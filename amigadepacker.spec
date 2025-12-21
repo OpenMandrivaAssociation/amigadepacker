@@ -12,6 +12,11 @@ Group: File tools
 Url: https://zakalwe.fi/~shd/foss/amigadepacker/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Amigadepacker uncompresses various compression formats used on
 AmigaOS. The supported formats are PowerPacker, XPK SQSH, and
